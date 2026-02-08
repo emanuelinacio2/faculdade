@@ -52,7 +52,7 @@ export default function ContentsPage() {
             Conteudos salvos
           </p>
           <h1 className="text-3xl font-[var(--font-display)] text-black">
-            Tudo o que voce ja registrou.
+            Tudo o que voce ja registrou em Projeto de Software.
           </h1>
           <p className="text-sm text-black/70">
             Esses dados ficam salvos no navegador.

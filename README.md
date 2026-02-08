@@ -1,7 +1,7 @@
-# ADS Conteudos
+# Projeto de Software
 
-Projeto em Next.js para guardar conteudos da faculdade de ADS. Os dados ficam no
-`localStorage` do navegador.
+Projeto em Next.js para guardar conteudos da materia de Projeto de Software. Os
+dados ficam no `localStorage` do navegador.
 
 ## Paginas
 

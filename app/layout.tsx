@@ -16,8 +16,8 @@ const textFont = Newsreader({
 });
 
 export const metadata: Metadata = {
-  title: "ADS Informacoes",
-  description: "Acervo local para organizar estudos de ADS.",
+  title: "Projeto de Software",
+  description: "Acervo local para organizar estudos de Projeto de Software.",
 };
 
 export default function RootLayout({
@@ -39,7 +39,7 @@ export default function RootLayout({
                 href="/"
                 className="text-2xl font-[var(--font-display)] tracking-tight"
               >
-                ADS Informacoes
+                Projeto de Software
               </Link>
               <nav className="flex flex-wrap gap-3 text-sm font-semibold uppercase tracking-[0.2em] text-black/60">
                 <Link
@@ -60,7 +60,7 @@ export default function RootLayout({
             <main className="flex-1 py-12">{children}</main>
 
             <footer className="pb-6 text-xs uppercase tracking-[0.2em] text-black/40">
-              Feito para estudos de ADS
+              Feito para estudos de Projeto de Software
             </footer>
           </div>
         </div>

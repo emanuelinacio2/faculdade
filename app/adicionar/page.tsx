@@ -63,7 +63,7 @@ export default function AddContentPage() {
             Adicionar conteudo
           </p>
           <h1 className="text-3xl font-[var(--font-display)] text-black">
-            Cadastre novos resumos e ideias.
+            Cadastre novos resumos e ideias do projeto.
           </h1>
           <p className="text-sm text-black/70">
             Tudo fica salvo no navegador e pode ser visto na pagina de
@@ -80,7 +80,7 @@ export default function AddContentPage() {
               value={form.title}
               onChange={handleChange("title")}
               className="w-full rounded-2xl border border-black/10 bg-white/90 px-4 py-3 text-sm outline-none transition focus:border-black/30"
-              placeholder="Ex: Normalizacao em 3FN"
+              placeholder="Ex: Escopo e objetivos do sistema"
             />
           </div>
 
@@ -92,7 +92,7 @@ export default function AddContentPage() {
               value={form.subject}
               onChange={handleChange("subject")}
               className="w-full rounded-2xl border border-black/10 bg-white/90 px-4 py-3 text-sm outline-none transition focus:border-black/30"
-              placeholder="Ex: Banco de Dados"
+              placeholder="Ex: Projeto de Software"
             />
           </div>
 
@@ -116,7 +116,7 @@ export default function AddContentPage() {
               value={form.tags}
               onChange={handleChange("tags")}
               className="w-full rounded-2xl border border-black/10 bg-white/90 px-4 py-3 text-sm outline-none transition focus:border-black/30"
-              placeholder="Ex: bd, normalizacao, sql"
+              placeholder="Ex: requisitos, escopo, riscos"
             />
           </div>
 
@@ -140,7 +140,7 @@ export default function AddContentPage() {
           </h2>
           <p className="mt-3 text-sm text-black/70">
             Mantenha um padrao de tags. Assim voce encontra rapido por tema,
-            prova ou projeto.
+            fase ou entrega.
           </p>
         </div>
         <div className="rounded-3xl border border-black/10 bg-[#1f2f2c] p-6 text-white">

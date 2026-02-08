@@ -6,10 +6,10 @@ export default function Home() {
       <div className="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr]">
         <div className="space-y-6">
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-black/50">
-            ADS Conteudos
+            Projeto de Software
           </p>
           <h1 className="text-4xl font-[var(--font-display)] leading-tight text-black sm:text-5xl lg:text-6xl">
-            Seu acervo de ADS, organizado e pronto para estudar.
+            Seu acervo de Projeto de Software, organizado e pronto para estudar.
           </h1>
           <p className="max-w-xl text-lg text-black/70">
             Guarde resumos, exercicios e ideias de aula em um painel leve.
@@ -49,10 +49,10 @@ export default function Home() {
                 Materia em foco
               </p>
               <p className="mt-2 text-lg font-[var(--font-display)]">
-                Banco de Dados
+                Projeto de Software
               </p>
               <p className="mt-2 text-sm text-black/70">
-                Resumos de modelagem, normalizacao e consultas SQL.
+                Resumos de requisitos, arquitetura e planejamento do projeto.
               </p>
             </div>
             <div className="rounded-2xl border border-black/10 bg-[#f2f0ea] p-4">
@@ -60,18 +60,21 @@ export default function Home() {
                 Checklist
               </p>
               <ul className="mt-3 space-y-2 text-sm text-black/70">
-                <li>Mapear entidades e relacionamentos</li>
-                <li>Organizar funcoes de um sistema</li>
-                <li>Separar casos de uso prioritarios</li>
+                <li>Definir escopo e objetivos do projeto</li>
+                <li>Mapear stakeholders e requisitos</li>
+                <li>Planejar entregas e riscos</li>
               </ul>
             </div>
             <div className="rounded-2xl border border-black/10 bg-white p-4">
               <p className="text-xs uppercase tracking-[0.2em] text-black/50">
                 Proxima prova
               </p>
-              <p className="mt-2 text-sm text-black/70">
-                Revisar estruturas de dados e grafos.
-              </p>
+              <ul className="mt-2 space-y-2 text-sm text-black/70">
+                <li>Ciclo de vida e artefatos do projeto.</li>
+                <li>Levantamento de requisitos e matriz de rastreabilidade.</li>
+                <li>Estimativas, cronograma e caminho critico.</li>
+                <li>Riscos, mitigacao e planos de contingencia.</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -80,16 +83,16 @@ export default function Home() {
       <div className="grid gap-6 md:grid-cols-3">
         {[
           {
-            title: "Algoritmos e Estruturas",
-            text: "Anote passos, complexidade e exercicios resolvidos.",
+            title: "Requisitos e Escopo",
+            text: "Registre objetivos, restricoes e criterios de aceite.",
           },
           {
-            title: "Engenharia de Requisitos",
-            text: "Guarde historias de usuario, personas e escopo.",
+            title: "Arquitetura e Design",
+            text: "Descreva componentes, integracoes e decisoes tecnicas.",
           },
           {
-            title: "Programacao Orientada a Objetos",
-            text: "Registre exemplos de classes e padroes.",
+            title: "Planejamento e Entregas",
+            text: "Quebre em sprints, marcos e indicadores de sucesso.",
           },
         ].map((item) => (
           <div
@@ -118,10 +121,10 @@ export default function Home() {
           </div>
           <ol className="space-y-4 text-sm text-white/80">
             <li className="rounded-2xl border border-white/20 bg-white/10 p-4">
-              1. Adicione um conteudo novo com titulo e materia.
+              1. Adicione um conteudo novo com titulo e topico.
             </li>
             <li className="rounded-2xl border border-white/20 bg-white/10 p-4">
-              2. Inclua tags para achar rapido na listagem.
+              2. Inclua tags para achar rapido por fase do projeto.
             </li>
             <li className="rounded-2xl border border-white/20 bg-white/10 p-4">
               3. Volte para revisar antes das avaliacoes.
@@ -136,17 +139,17 @@ export default function Home() {
             Exemplo salvo
           </p>
           <h3 className="mt-3 text-lg font-[var(--font-display)]">
-            Diagrama de classes para um sistema de biblioteca
+            Visao geral do sistema e objetivos do projeto
           </h3>
           <p className="mt-3 text-sm text-black/70">
-            Pontos chave: entidades principais, relacionamentos e metodos.
+            Pontos chave: problema, usuarios, escopo e restricoes.
           </p>
           <div className="mt-4 flex flex-wrap gap-2 text-xs uppercase tracking-[0.2em] text-black/60">
             <span className="rounded-full border border-black/10 bg-white px-3 py-1">
-              POO
+              Escopo
             </span>
             <span className="rounded-full border border-black/10 bg-white px-3 py-1">
-              UML
+              Requisitos
             </span>
           </div>
         </div>
@@ -155,17 +158,17 @@ export default function Home() {
             Exemplo salvo
           </p>
           <h3 className="mt-3 text-lg font-[var(--font-display)]">
-            Regras para historias de usuario bem formadas
+            Matriz de riscos e plano de mitigacao
           </h3>
           <p className="mt-3 text-sm text-black/70">
-            Estrutura: como [persona], quero [acao], para [objetivo].
+            Probabilidade, impacto e responsavel por cada risco.
           </p>
           <div className="mt-4 flex flex-wrap gap-2 text-xs uppercase tracking-[0.2em] text-black/60">
             <span className="rounded-full border border-black/10 bg-white px-3 py-1">
-              Requisitos
+              Riscos
             </span>
             <span className="rounded-full border border-black/10 bg-white px-3 py-1">
-              Produto
+              Planejamento
             </span>
           </div>
         </div>
