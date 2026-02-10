@@ -9,7 +9,7 @@ export default function Home() {
             Projeto de Software
           </p>
           <h1 className="text-4xl font-[var(--font-display)] leading-tight text-black sm:text-5xl lg:text-6xl">
-            Seu acervo de Projeto de Software, organizado e pronto para estudar.
+            Testes
           </h1>
           <p className="max-w-xl text-lg text-black/70">
             Guarde resumos, exercicios e ideias de aula em um painel leve.
